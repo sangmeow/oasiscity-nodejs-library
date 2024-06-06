@@ -1,3 +1,2 @@
-const isNumberOnlyString = require("oasiscity-nodejs-library");
-
-console.log(isNumberOnlyString("123"));
+const oasiscity = require("oasiscity-nodejs-library");
+console.log(oasiscity.isNumber.isNumberOnlyString("123"));

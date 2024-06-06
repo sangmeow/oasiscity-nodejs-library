@@ -2,7 +2,7 @@
   "name": "oasiscity-nodejs-library",
   "version": "1.0.0",
   "description": "oasiscity nodejs library",
-  "main": "index.js",
+  "main": "oasiscity.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,8 @@
     "oasiscity"
   ],
   "author": "oasiscity",
+  "engines": {
+    "node": ">= 0.10"
+  },
   "license": "ISC"
 }
