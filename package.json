@@ -1,9 +1,13 @@
 {
-  "name": "oasiscity_nodejs_library",
+  "name": "oasiscity-nodejs-library",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangmeow/oasiscity_nodejs_library.git"
   },
   "author": "oasiscity",
   "license": "ISC",
