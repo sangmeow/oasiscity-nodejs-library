@@ -41,6 +41,7 @@ function readJavaScriptFile(fileList) {
 
     const codeList = extractCommentAndCode(fileContent);
 
+    markdownContent += "node version : nodejs version : 18.20.3\n\n";
     markdownContent += `## ${fileName}\n\n`;
     for (const codeItem of codeList) {
       markdownContent += "```javascript\n";
@@ -49,7 +50,7 @@ function readJavaScriptFile(fileList) {
     }
   });
 
-  fs.writeFileSync("README.MD", markdownContent, "utf8");
+  fs.writeFileSync("package/README.MD", markdownContent, "utf8");
   console.log(`Markdown file "README.MD" created successfully.`);
 }
 
