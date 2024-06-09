@@ -1,6 +1,6 @@
 {
   "name": "oasiscity-nodejs-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "oasiscity nodejs library",
   "main": "oasiscity.js",
   "scripts": {
