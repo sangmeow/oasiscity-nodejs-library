@@ -1,5 +1,5 @@
 {
-  "name": "oasiscity-nodejs-library",
+  "name": "@oasiscity/oasiscity-nodejs-library",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "scripts": {
