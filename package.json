@@ -1,13 +1,9 @@
 {
-  "name": "@oasiscity/oasiscity-nodejs-library",
-  "version": "1.0.0",
+  "name": "oasiscity-nodejs-library",
+  "version": "1.0.1",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sangmeow/oasiscity_nodejs_library.git"
   },
   "author": "oasiscity",
   "license": "ISC",
@@ -16,5 +12,8 @@
     "@eslint/js": "^9.4.0",
     "eslint": "9.x",
     "globals": "^15.3.0"
+  },
+  "dependencies": {
+    "oasiscity-nodejs-library": "^1.0.2"
   }
 }
