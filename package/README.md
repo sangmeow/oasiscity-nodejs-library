@@ -62,8 +62,6 @@ function isDateTimeAfterToday(givenDateTime, locale = "en-US", timeZone = "UTC")
 function isDateTimeBetween(startDateTime, endDateTime, locale = "en-US", timeZone = "UTC")
 ```
 
-node version : nodejs version : 18.20.3
-
 ## deep_copy.js
 
 ```javascript
@@ -75,8 +73,6 @@ node version : nodejs version : 18.20.3
 function deepCopy(value)
 ```
 
-node version : nodejs version : 18.20.3
-
 ## isEmpty.js
 
 ```javascript
@@ -87,8 +83,6 @@ node version : nodejs version : 18.20.3
  */
 function isEmpty(value)
 ```
-
-node version : nodejs version : 18.20.3
 
 ## isNumber.js
 
@@ -110,8 +104,6 @@ function isNumberOnlyString(value)
 function isNumberType(value)
 ```
 
-node version : nodejs version : 18.20.3
-
 ## JSON.js
 
 ```javascript
@@ -123,7 +115,17 @@ node version : nodejs version : 18.20.3
 function queryStringToJson(queryString)
 ```
 
-node version : nodejs version : 18.20.3
+```javascript
+/**
+ * Get existence object from the list
+ * @param {Object} JSONObject
+ * @param {string[]} JSONArray
+ * @return {Object}
+ * { idx: 1, sid: "9999", username: "sickdog", password: "password", date: "Jan 19, 1984"} ["sid","username"]
+ * return { sid: "9999", username: "sickdog" }
+ */
+function getMapFromList(object, array)
+```
 
 ## Number.js
 
@@ -164,8 +166,6 @@ function lottery(percentage)
  */
 function lotteryDigit(denominator)
 ```
-
-node version : nodejs version : 18.20.3
 
 ## verify_key_value.js
 
@@ -211,8 +211,6 @@ function verifyEveryKeyValueExistResult(target, items)
  */
 function returnKeyValueExist(target, items)
 ```
-
-node version : nodejs version : 18.20.3
 
 ## oasiscity.js
 

@@ -24,4 +24,22 @@ function queryStringToJson(queryString) {
   return result;
 }
 
-module.exports = {queryStringToJson};
+/**
+ * Get existence object from the list
+ * @param {Object} JSONObject
+ * @param {string[]} JSONArray
+ * @return {Object}
+ * { idx: 1, sid: "9999", username: "sickdog", password: "password", date: "Jan 19, 1984"} ["sid","username"]
+ * return { sid: "9999", username: "sickdog" }
+ */
+function getMapFromList(object, array) {
+  let returnData = {};
+  array.forEach((v) => {
+    if (object[v]) {
+      returnData[v] = object[v];
+    }
+  });
+  return returnData;
+}
+
+module.exports = {queryStringToJson, getMapFromList};

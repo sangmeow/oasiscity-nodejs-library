@@ -34,6 +34,7 @@ function extractCommentAndCode(inputString) {
 
 function readJavaScriptFile(fileList) {
   let markdownContent = "# READ ME\n\n";
+  markdownContent += "node version : nodejs version : 18.20.3\n\n";
 
   fileList.forEach((file) => {
     const fileContent = fs.readFileSync(file, "utf8");
@@ -41,7 +42,6 @@ function readJavaScriptFile(fileList) {
 
     const codeList = extractCommentAndCode(fileContent);
 
-    markdownContent += "node version : nodejs version : 18.20.3\n\n";
     markdownContent += `## ${fileName}\n\n`;
     for (const codeItem of codeList) {
       markdownContent += "```javascript\n";
